@@ -3,10 +3,10 @@ import Algorithm.*;
 import java.util.*;
 
 public class Experiment {
-        private static final String dataPath = "./data/grid/dianwang_value_from2020-11-29to2020-12-06_10543.csv";
+        private static final String dataPath = "./data/grid/grid_value_from2020-11-29to2020-12-06_10543.csv";
 //    private static final String dataPath = "./data/power_consumption/Tetuan_city_power_consumption_zone_3_52416.csv";
 //    private static final String dataPath = "./data/synthetic/final_1000000.csv";
-    private static final int dataLen = 10000;  // 时间序列大小
+    private static final int dataLen = 10000;
 
     public static Analysis srcdRepair(ArrayList<Long> td_time, ArrayList<Double> td_clean, ArrayList<Double> td_dirty, int period, double k, int max_iter) throws Exception {
         System.out.println("\nSRCD");
